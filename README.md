@@ -5,19 +5,19 @@ A simple CLI tool to clone GitHub repositories into the current directory.
 ## Usage
 
 ```bash
-node index.js <repo-url-or-user/repo>
+npx opnsrc <repo-url-or-user/repo>
 ```
 
 ## Examples
 
 Clone using full GitHub URL:
 ```bash
-node index.js https://github.com/vercel/next.js
+npx opnsrc https://github.com/ahmadawais/terminui
 ```
 
 Clone using user/repo shorthand:
 ```bash
-node index.js vercel/next.js
+npx opnsrc ahmadawais/terminui
 ```
 
 ## Features
@@ -35,4 +35,4 @@ node index.js vercel/next.js
 
 ## License
 
-Apache-2.0
+Apache-2.0 by [Ahmad Awais](https://x.com/MrAhmadAwais) built with [Command Code](https://commandcode.ai).
